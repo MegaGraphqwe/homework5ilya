@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7CDAEF;
+    font-family: 'Play', sans-serif;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    background-color: #0E497EB2;
+    margin-top: 104px;
+    position: relative;
+}
+.blue{
+    width: 900px;
+    margin: auto;
+    color: white;
+    padding-left: 78px;
+    padding-right: 78px;
+
+}
+main p{
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+h1{
+    padding-top: 99px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+}
+h2{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    padding-bottom: 52px ;
+
+}
+.cloud1{
+    position:absolute;
+    width: 362.55px;
+    height: 157.79px;
+    top: 282px;
+    left:-205px;
+    z-index: -1;
+}
+.cloud2{
+    position: absolute;
+width: 339.66px;
+height: 141.32px;
+right: -155px;
+top: -58px;
+}
+.cloud3{
+    position: absolute;
+    width: 468px;
+    height: 216.74px;
+    top: 450px;
+    right: -206px;
+    z-index: -1;
+}
+.birds{
+    padding-bottom: 176px;
+}
+.grass{
+    background-image: url(../pics/grass.png);
+    background-repeat:repeat;
+    height: 132px;
+}
+footer{
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+}
